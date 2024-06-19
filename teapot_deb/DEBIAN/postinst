@@ -1,0 +1,8 @@
+echo "Start to install"
+mv -f /application/lib/teapot.desktop /usr/share/applications/
+mv -f /application/lib/teapot.png /usr/share/pixmaps/
+mv -f /application/teapot/* /usr/bin/
+ 
+echo "set QT_PLUGIN_PATH in file .profile"
+echo "QT_PLUGIN_PATH=/usr/lib/x86_64-linux-gnu/qt5/plugins" >> ~/.profile
+echo "Install ok"

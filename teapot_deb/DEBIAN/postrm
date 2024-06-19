@@ -1,0 +1,6 @@
+echo "Start to remove"
+rm -rf  /usr/share/applications/teapot.desktop
+rm -rf  /usr/share/pixmaps/teapot.png 
+rm -rf  /usr/bin/teapot 
+echo "Remove finished!
+  

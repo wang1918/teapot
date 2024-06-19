@@ -1,0 +1,8 @@
+Package:teapot
+Version:0.1
+Section:utils
+Priority:extra
+Maintainer:dont need
+Depends:libqt5widgets5(>=5.0),libqt5gui5(>=5.0),libqt5core5a(>=5.0),libqt5x11extras5(>=5.0),libqt5x11extras5-dev(>=5.0)
+Architecture:amd64
+Description: draw a teapot

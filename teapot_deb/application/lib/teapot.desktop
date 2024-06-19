@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=0.1   #应用程序版本
+Name=teapot #应用程序名
+Comment=Back up your data with one click  #应用程序描述
+Exec=/usr/bin/teapot                    #可运行应用程序最终的绝对路径
+keywords=teapot          #在dasn串搜索时，可用的关键字
+StartupNotify=true                        
+Terminal=false                            #运行时不需要打开终端
+Type=Application                          #应用程序类型，在dash和分类中会有显示，还有其它的类型
+Categories=Utility;Application;           #应用程序的分类，工具/应用程序
+Hidden=false                              #
+Icon=/usr/share/pixmaps/teapot.png       #应用程序图标名的绝对路径
